@@ -245,7 +245,7 @@ export const content = {
       {
         text: "+91 7218006256",
         icon: MdCall,
-        link: "https://wa.me/1234567890",
+        link: "https://wa.me/7218006256",
       },
       {
         text: "rohanhoval",
@@ -255,6 +255,6 @@ export const content = {
     ],
   },
   Footer: {
-    text: "All © Copy Right Reserved 2022",
+    text: "All © Copy Right Reserved 2024",
   },
 };
