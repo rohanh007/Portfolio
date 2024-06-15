@@ -13,7 +13,7 @@ import services_logo2 from "./assets/images/Services/ui_ux.png";
 import services_logo3 from "./assets/images/Services/mobile_development.png";
 import services_logo4 from "./assets/images/Services/ecommerce_solution.png";
 
-import project2 from "./assets/images/projects/swiggy.webp";
+import project2 from "./assets/images/projects/Swiggy-img.jpg";
 import project3 from "./assets/images/projects/technews.jpg";
 import person_project from "./assets/images/projects/person.png";
 
