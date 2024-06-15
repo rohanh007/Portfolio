@@ -13,7 +13,6 @@ import services_logo2 from "./assets/images/Services/ui_ux.png";
 import services_logo3 from "./assets/images/Services/mobile_development.png";
 import services_logo4 from "./assets/images/Services/ecommerce_solution.png";
 
-import project1 from "./assets/images/projects/img1.png";
 import project2 from "./assets/images/projects/swiggy.webp";
 import project3 from "./assets/images/projects/technews.jpg";
 import person_project from "./assets/images/projects/person.png";
@@ -215,13 +214,13 @@ export const content = {
         review:
           "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
         img: avatar3,
-        name: "Johnny",
+        name: "rohan",
       },
       {
         review:
           "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
         img: avatar4,
-        name: "ROBBIN",
+        name: "hoval",
       },
     ],
   },
