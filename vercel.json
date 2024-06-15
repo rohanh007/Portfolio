@@ -1,10 +1,4 @@
 {
-    "builds": [
-      {
-        "src": "src/Content.js",
-        "use": "@vercel/node"
-      }
-    ],
     "routes": [
       {
         "src": "/assets/(.*)",
