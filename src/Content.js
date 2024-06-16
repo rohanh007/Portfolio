@@ -1,29 +1,29 @@
 // import images
-import Hero_person from "./assets/images/Hero/hero_peronal.png";
+import Hero_person from "../public/assets/images/Hero/hero_peronal.png";
 
-import mongodb from "./assets/images/Skills/mongoDB.png";
-import mysql from "./assets/images/Skills/mysql.png";
-import redux from "./assets/images/Skills/redux-icon.png";
-import reactjs from "./assets/images/Skills/react.png";
-import nodejs from "./assets/images/Skills/node.png";
-import python from "./assets/images/Skills/python.png";
+import mongodb from "../public/assets/images/Skills/mongoDB.png";
+import mysql from "../public/assets/images/Skills/mysql.png";
+import redux from "../public/assets/images/Skills/redux-icon.png";
+import reactjs from "../public/assets/images/Skills/react.png";
+import nodejs from "../public/assets/images/Skills/node.png";
+import python from "../public/assets/images/Skills/python.png";
 
-import services_logo1 from "./assets/images/Services/web_development.png";
-import services_logo2 from "./assets/images/Services/ui_ux.png";
-import services_logo3 from "./assets/images/Services/mobile_development.png";
-import services_logo4 from "./assets/images/Services/ecommerce_solution.png";
+import services_logo1 from "../public/assets/images/Services/web_development.png";
+import services_logo2 from "../public/assets/images/Services/ui_ux.png";
+import services_logo3 from "../public/assets/images/Services/mobile_development.png";
+import services_logo4 from "../public/assets/images/Services/ecommerce_solution.png";
 
-import project2 from "./assets/images/projects/Swiggy-img.jpg";
-import project3 from "./assets/images/projects/technews.jpg";
-import person_project from "./assets/images/projects/person.png";
+import project2 from "../public/assets/images/Projects/Swiggy-img.jpg";
+import project3 from "../public/assets/images/Projects/technews.jpg";
+import person_project from "../public/assets/images/Projects/person.png";
 
-import avatar1 from "./assets/images/Testimonials/avatar1.png";
-import avatar2 from "./assets/images/Testimonials/avatar2.png";
-import avatar3 from "./assets/images/Testimonials/avatar3.png";
-import avatar4 from "./assets/images/Testimonials/avatar4.png";
+// import avatar1 from "./assets/images/Testimonials/avatar1.png";
+// import avatar2 from "./assets/images/Testimonials/avatar2.png";
+// import avatar3 from "./assets/images/Testimonials/avatar3.png";
+// import avatar4 from "./assets/images/Testimonials/avatar4.png";
 
-import Hireme_person from "./assets/images/Hireme/person.png";
-import Hireme_person2 from "./assets/images/Hireme/person2.png";
+import Hireme_person from "../public/assets/images/Hireme/person.png";
+import Hireme_person2 from "../public/assets/images/Hireme/person2.png";
 
 // import icons from react-icons
 import { GrMail } from "react-icons/gr";
@@ -194,36 +194,36 @@ export const content = {
       },
     ],
   },
-  Testimonials: {
-    title: "Testimonials",
-    subtitle: "MY CLIENT REVIEWS",
-    testimonials_content: [
-      {
-        review:
-          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
-        img: avatar1,
-        name: "JOHN DOE",
-      },
-      {
-        review:
-          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
-        img: avatar2,
-        name: "Tom Alex",
-      },
-      {
-        review:
-          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
-        img: avatar3,
-        name: "rohan",
-      },
-      {
-        review:
-          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
-        img: avatar4,
-        name: "hoval",
-      },
-    ],
-  },
+  // Testimonials: {
+  //   title: "Testimonials",
+  //   subtitle: "MY CLIENT REVIEWS",
+  //   testimonials_content: [
+  //     {
+  //       review:
+  //         "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
+  //       img: avatar1,
+  //       name: "JOHN DOE",
+  //     },
+  //     {
+  //       review:
+  //         "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
+  //       img: avatar2,
+  //       name: "Tom Alex",
+  //     },
+  //     {
+  //       review:
+  //         "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
+  //       img: avatar3,
+  //       name: "rohan",
+  //     },
+  //     {
+  //       review:
+  //         "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
+  //       img: avatar4,
+  //       name: "hoval",
+  //     },
+  //   ],
+  // },
   Hireme: {
     title: "Hire Me",
     subtitle: "FOR YOUR PROJECTS",
