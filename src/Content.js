@@ -107,7 +107,7 @@ export const content = {
           "Predictable State Management for stability",
            "Action-Driven Architecture for control",
           "Middleware Integration for async operations",
-            "DevTools Integration for debugging"
+            "DevTools Integration for  debugging"
       ],
         logo: redux,
       },
@@ -187,10 +187,12 @@ export const content = {
       {
         title: "Swiggy Clone",
         image: project2,
+        about:"this is the swiggy project ",
       },
       {
         title: "Tech News",
         image: project3,
+        about:"this is the swiggy project ",
       },
     ],
   },
