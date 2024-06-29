@@ -1,29 +1,29 @@
 // import images
-import Hero_person from "./assets/images/Hero/person.png";
+import Hero_person from "../public/assets/images/Hero/hero_peronal.png";
 
-import figma from "./assets/images/Skills/figma.png";
-import sketch from "./assets/images/Skills/sketch.png";
-import ps from "./assets/images/Skills/ps.png";
-import reactjs from "./assets/images/Skills/react.png";
-import nodejs from "./assets/images/Skills/node.png";
-import python from "./assets/images/Skills/python.png";
+import mongodb from "../public/assets/images/Skills/mongoDB.png";
+import mysql from "../public/assets/images/Skills/mysql.png";
+import redux from "../public/assets/images/Skills/redux-icon.png";
+import reactjs from "../public/assets/images/Skills/react.png";
+import nodejs from "../public/assets/images/Skills/node.png";
+import python from "../public/assets/images/Skills/python.png";
 
-import services_logo1 from "./assets/images/Services/logo1.png";
-import services_logo2 from "./assets/images/Services/logo2.png";
-import services_logo3 from "./assets/images/Services/logo3.png";
+import services_logo1 from "../public/assets/images/Services/web_development.png";
+import services_logo2 from "../public/assets/images/Services/ui_ux.png";
+import services_logo3 from "../public/assets/images/Services/mobile_development.png";
+import services_logo4 from "../public/assets/images/Services/ecommerce_solution.png";
 
-import project1 from "./assets/images/projects/img1.png";
-import project2 from "./assets/images/projects/img2.png";
-import project3 from "./assets/images/projects/img3.png";
-import person_project from "./assets/images/projects/person.png";
+import project2 from "../public/assets/images/Projects/Swiggy-img.jpg";
+import project3 from "../public/assets/images/Projects/technews.jpg";
+import person_project from "../public/assets/images/Projects/person.png";
 
-import avatar1 from "./assets/images/Testimonials/avatar1.png";
-import avatar2 from "./assets/images/Testimonials/avatar2.png";
-import avatar3 from "./assets/images/Testimonials/avatar3.png";
-import avatar4 from "./assets/images/Testimonials/avatar4.png";
+// import avatar1 from "./assets/images/Testimonials/avatar1.png";
+// import avatar2 from "./assets/images/Testimonials/avatar2.png";
+// import avatar3 from "./assets/images/Testimonials/avatar3.png";
+// import avatar4 from "./assets/images/Testimonials/avatar4.png";
 
-import Hireme_person from "./assets/images/Hireme/person.png";
-import Hireme_person2 from "./assets/images/Hireme/person2.png";
+import Hireme_person from "../public/assets/images/Hireme/person.png";
+import Hireme_person2 from "../public/assets/images/Hireme/person2.png";
 
 // import icons from react-icons
 import { GrMail } from "react-icons/gr";
@@ -58,14 +58,14 @@ export const content = {
     },
   ],
   hero: {
-    title: "Web Developer",
-    firstName: "JOHN",
-    LastName: "ALEX",
+    title: "MERN Stack Developer",
+    firstName: "ROHAN",
+    LastName: "HOVAL",
     btnText: "Hire Me",
     image: Hero_person,
     hero_content: [
       {
-        count: "8+",
+        count: "1+",
         text: "Years of Experinse in Web development",
       },
       {
@@ -79,35 +79,73 @@ export const content = {
     subtitle: "MY TOP SKILLS",
     skills_content: [
       {
-        name: "Figma",
-        para: "Lorem ipsum text  dummy",
-        logo: figma,
-      },
-      {
         name: "Node js",
-        para: "Lorem ipsum text  dummy",
+        para: "Building scalable and efficient web applications",
+        description:[
+          "Event-Driven Architecture for responsiveness",
+          "Non-Blocking I/O for efficiency",
+          "Express.js for streamlined development",
+          "MongoDB Integration for data management" 
+        ],
         logo: nodejs,
       },
       {
-        name: "Adobe Photoshop",
-        para: "Lorem ipsum text  dummy",
-        logo: ps,
-      },
-      {
         name: "React js",
-        para: "Lorem ipsum text  dummy",
+        para: "Crafting interactive user interfaces with React.js",
+        description:[
+          "Component-Based Architecture for modularity",
+          "Virtual DOM for efficient rendering",
+          "Redux for state management",
+          "Responsive Design for adaptability  make this into the js array" 
+      ],
         logo: reactjs,
       },
       {
-        name: "Sketch",
-        para: "Lorem ipsum text  dummy",
-        logo: sketch,
+        name: "Redux",
+        para: "Managing application state with Redux",
+        description:[
+          "Predictable State Management for stability",
+           "Action-Driven Architecture for control",
+          "Middleware Integration for async operations",
+            "DevTools Integration for  debugging"
+      ],
+        logo: redux,
       },
       {
         name: "Python",
-        para: "Lorem ipsum text  dummy",
+        para: "Building versatile and efficient applications with Python",
+        description:[
+          "Clean & Maintainable Code for readability",
+          "Extensive Library/Framework Support for versatility",
+          "Integration & Automation for efficiency",
+          "Cross-Domain Application for diverse solutions" 
+      ],
         logo: python,
       },
+    
+      {
+        name: "MongoDB",
+        para: "Building scalable and flexible database solutions with MongoDB",
+        description:[
+          "Document-Oriented Storage for flexibility",
+          "Query Optimization for speed",
+          "Aggregation Framework for analysis",
+          "Scalability & Replication for reliability",
+      ],
+        logo: mongodb,
+      },
+      {
+        name: "MySQL",
+        para: "Building robust relational database solutions with MySQL",
+        description:[
+          "Relational Data Modeling for efficiency",
+          "SQL Query Optimization for performance",
+          "Transaction Management for data consistency",
+          "Security and Access Control for protection"
+      ],
+        logo: mysql,
+      },
+     
     ],
     icon: MdArrowForward,
   },
@@ -117,7 +155,7 @@ export const content = {
     service_content: [
       {
         title: "Web Development",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        para: "Crafting custom websites and web applications tailored to your needs, using the latest technologies and best practices",
         logo: services_logo1,
       },
       {
@@ -126,9 +164,14 @@ export const content = {
         logo: services_logo2,
       },
       {
-        title: "PhotoShop Editing",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
-        logo: services_logo3,
+        title: "Mobile App Development",
+        para: "Building intuitive and feature-rich mobile applications for iOS and Android platforms, ensuring a seamless user experience.",
+        logo:services_logo3,
+      },
+      {
+        title: "E-commerce Solutions",
+        para: "Developing scalable e-commerce platforms with secure payment gateways, inventory management, and customer management features.",
+        logo:services_logo4,
       },
     ],
   },
@@ -137,50 +180,52 @@ export const content = {
     subtitle: "MY CREATION",
     image: person_project,
     project_content: [
+      // {
+      //   title: "Gym Website",
+      //   image: project1,
+      // },
       {
-        title: "Gym Website",
-        image: project1,
-      },
-      {
-        title: "Social Media web",
+        title: "Swiggy Clone",
         image: project2,
+        about:"this is the swiggy project ",
       },
       {
-        title: "Creative Website",
+        title: "Tech News",
         image: project3,
+        about:"this is the swiggy project ",
       },
     ],
   },
-  Testimonials: {
-    title: "Testimonials",
-    subtitle: "MY CLIENT REVIEWS",
-    testimonials_content: [
-      {
-        review:
-          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
-        img: avatar1,
-        name: "JOHN DOE",
-      },
-      {
-        review:
-          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
-        img: avatar2,
-        name: "Tom Alex",
-      },
-      {
-        review:
-          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
-        img: avatar3,
-        name: "Johnny",
-      },
-      {
-        review:
-          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
-        img: avatar4,
-        name: "ROBBIN",
-      },
-    ],
-  },
+  // Testimonials: {
+  //   title: "Testimonials",
+  //   subtitle: "MY CLIENT REVIEWS",
+  //   testimonials_content: [
+  //     {
+  //       review:
+  //         "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
+  //       img: avatar1,
+  //       name: "JOHN DOE",
+  //     },
+  //     {
+  //       review:
+  //         "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
+  //       img: avatar2,
+  //       name: "Tom Alex",
+  //     },
+  //     {
+  //       review:
+  //         "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
+  //       img: avatar3,
+  //       name: "rohan",
+  //     },
+  //     {
+  //       review:
+  //         "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
+  //       img: avatar4,
+  //       name: "hoval",
+  //     },
+  //   ],
+  // },
   Hireme: {
     title: "Hire Me",
     subtitle: "FOR YOUR PROJECTS",
@@ -194,23 +239,23 @@ export const content = {
     subtitle: "GET IN TOUCH",
     social_media: [
       {
-        text: "codeaprogram@gmail.com",
+        text: "hoval.rohan.11@gmail.com",
         icon: GrMail,
-        link: "mailto:codeaprogram@gmail.com",
+        link: "mailto:hoval.rohan.11@gmail.com",
       },
       {
-        text: "+91 1234 56778",
+        text: "+91 7218006256",
         icon: MdCall,
-        link: "https://wa.me/1234567890",
+        link: "https://wa.me/7218006256",
       },
       {
-        text: "codeaprogram",
+        text: "rohanhoval",
         icon: BsInstagram,
-        link: "https://www.instagram.com/codeaprogram/",
+        link: "",
       },
     ],
   },
   Footer: {
-    text: "All © Copy Right Reserved 2022",
+    text: "All © Copy Right Reserved 2024",
   },
 };
