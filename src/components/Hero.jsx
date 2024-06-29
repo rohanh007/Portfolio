@@ -1,8 +1,7 @@
 // import content
 import { useEffect } from "react";
 import { content } from "../Content";
-import Particles from "react-tsparticles";
-import particleconfig from "./config/particlesjs-config";
+
 
 const Hero = () => {
   const { hero } = content;
@@ -10,7 +9,6 @@ const Hero = () => {
   return (
     <section id="home" className="overflow-hidden">
       <div className="min-h-screen relative flex md:flex-row flex-col-reverse md:items-end justify-center items-center" style={{zIndex:"1"}}>
-        <Particles options={particleconfig} className="absolute inset-0 z-0" style={{zIndex:"1000000000000000000000"}} />
         <div
           data-aos="slide-left"
           data-aos-delay="1200"
